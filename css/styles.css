@@ -179,3 +179,9 @@ background-color: #333;
     font-weight: bold;
     font-size: 32px;
 }
+
+/* Time */
+
+.card-body {
+    text-align: center;
+}
