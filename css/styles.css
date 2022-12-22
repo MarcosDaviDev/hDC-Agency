@@ -175,15 +175,30 @@ background-color: #333;
     padding: 0 40px;
 }
 
+#data-area {
+    padding-top: 20px;
+}
+
 .progressbar-text {
     font-weight: bold;
     font-size: 32px;
+}
+
+#data-area p{
+    color: #FFF;
+    text-align: center;
+    font-size:  26px;
+    margin-top: 20px;
 }
 
 /* Time */
 
 .card-body {
     text-align: center;
+}
+
+#team-area {
+    padding-bottom: 50px;
 }
 /* Trabalhe conosco */
 
