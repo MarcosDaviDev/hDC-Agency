@@ -196,7 +196,6 @@ background-color: #333;
 .card-body {
     text-align: center;
 }
-
 #team-area {
     padding-bottom: 50px;
 }
@@ -252,6 +251,11 @@ background-color: #333;
     border-color: #FFF;
 }
 
+#apply-btn:hover {
+    border-color: #65DAF9;
+    background-color: #65DAF9;
+}
+
 /* Portfólio */
 
 .project-box {
@@ -280,11 +284,6 @@ background-color: #333;
     color: #FFF;
     background-color: #65DAF9;
     border-color: #65DAF9;
-}
-
-#apply-btn:hover {
-    border-color: #65DAF9;
-    background-color: #65DAF9;
 }
 
 /* News Letter */
@@ -439,4 +438,179 @@ background-color: #333;
 #copy-area a:hover{
     text-decoration: none;
     color: #3ec1d5;
+}
+
+
+/* Responsive */
+
+@media(max-width: 768px){
+
+    /* Geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* Slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* About */
+    #about-area img {
+        margin-top: 100px;
+    }
+
+    /* Data */
+    .circle-box div {
+        padding: 0 10px;
+    }
+
+    #data-area p {
+        font-size: 16px;
+    }
+
+    /* Time */
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+
+    /* Apply */
+    #apply-area .apply-box{
+        padding: 50px 25px;
+    }
+
+    /* News */
+    #news-area p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input {
+        width: 70%;
+    }
+
+    #call-area {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    #call-area p, #call-area #call-btn{
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 425px) {
+
+    /* Slider */
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    
+    #mainSlider .carousel-caption p{
+        display: none;
+    }
+
+    .carousel-caption .main-btn {
+        font-size: 14px;
+    }
+
+    /* About */
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* Data */
+    .circle-box {
+        width: 50%;
+    }
+
+    /* Time */
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* Apply */
+    #apply-area {
+        height: auto;
+    }
+
+    #company-img {
+        display: none;
+    }
+
+    /* Filter */
+    #portfolio-area #main-title{
+        margin-bottom: 0;
+    }
+    #portfolio-area .filter-btn {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .project-box {
+        width: 50%;
+    }
+
+    /* News */
+    #news-area .main-title {
+        font-size: 24px;
+    }
+
+    #news-area p {
+        font-size: 16px;
+    }
+
+    #email-input {
+        width: 80%;
+    }
+
+    /* Call area */
+    #call-area p, #call-area #call-btn {
+        font-size: 12px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    /* Contact */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
 }
