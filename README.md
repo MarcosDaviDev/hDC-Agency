@@ -1,3 +1,3 @@
 # hDC-Agency
 
-Praticando Bootstrap 5.2
+Este é um projeto voltado para front-end, feito em BootStrap
